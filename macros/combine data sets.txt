@@ -1,0 +1,74 @@
+if Not IsNull([Y2005_06]) Then
+   val = [Y2005_06]
+elseif Not IsNull([Y2006_07]) Then
+   val = [Y2006_07]
+elseif Not IsNull([Y2007_08]) Then
+   val = [Y2007_08]
+elseif Not IsNull([Y2008_09]) Then
+   val = [Y2008_09]
+elseif Not IsNull([Y2009_10]) Then
+   val = [Y2009_10]
+elseif Not IsNull([Y2010_11]) Then
+   val = [Y2010_11]
+elseif Not IsNull([Y2011_12]) Then
+   val = [Y2011_12]
+elseif Not IsNull([Y2012_13]) Then
+   val = [Y2012_13]
+End If
+
+if Not IsNull([Y2005]) Then
+   val = [Y2005]
+elseif Not IsNull([Y2006]) Then
+   val = [Y2006]
+elseif Not IsNull([Y2007]) Then
+   val = [Y2007]
+elseif Not IsNull([Y2008]) Then
+   val = [Y2008]
+elseif Not IsNull([Y2009]) Then
+   val = [Y2009]
+elseif Not IsNull([Y2010]) Then
+   val = [Y2010]
+elseif Not IsNull([Y2011]) Then
+   val = [Y2011]
+elseif Not IsNull([Y2012]) Then
+   val = [Y2012]
+End If
+
+
+
+
+if Not IsNull([Y2005_06]) Then
+   val = DateValue("01/01/2006")
+elseif Not IsNull([Y2006_07]) Then
+   val = DateValue("01/01/2007")
+elseif Not IsNull([Y2007_08]) Then
+   val = DateValue("01/01/2008")
+elseif Not IsNull([Y2008_09]) Then
+   val = DateValue("01/01/2009")
+elseif Not IsNull([Y2009_10]) Then
+   val = DateValue("01/01/2010")
+elseif Not IsNull([Y2010_11]) Then
+   val = DateValue("01/01/2011")
+elseif Not IsNull([Y2011_12]) Then
+   val = DateValue("01/01/2012")
+elseif Not IsNull([Y2012_13]) Then
+   val = DateValue("01/01/2013")
+End If
+
+if Not IsNull([Y2005]) Then
+   val = DateValue("01/01/2005")
+elseif Not IsNull([Y2006]) Then
+   val = DateValue("01/01/2006")
+elseif Not IsNull([Y2007]) Then
+   val = DateValue("01/01/2007")
+elseif Not IsNull([Y2008]) Then
+   val = DateValue("01/01/2008")
+elseif Not IsNull([Y2009]) Then
+   val = DateValue("01/01/2009")
+elseif Not IsNull([Y2010]) Then
+   val = DateValue("01/01/2010")
+elseif Not IsNull([Y2011]) Then
+   val = DateValue("01/01/2011")
+elseif Not IsNull([Y2012]) Then
+   val = DateValue("01/01/2012")
+End If

@@ -1,0 +1,215 @@
+ul{ display:block;-webkit-padding-start: 0;   -webkit-margin-before: 0;  -webkit-margin-after: 0;}
+.toolbar {
+	/*z-index: 50;*/
+	/*position: absolute;*/
+	clear:left;
+	list-style: none;
+	padding-bottom: 50px;
+}
+.toolbarSR {
+	/*z-index: 50;*/
+	/*position: absolute;*/
+	clear:left;
+	list-style: none;
+	/*padding-bottom: 50px;*/
+}
+@-moz-document url-prefix() {
+	#toolDiv{
+		clear:both;
+		padding-top:10px;
+	}
+	.toolbar {
+		/*z-index: 50;*/
+		/*position: absolute;*/
+		clear:both;
+		list-style: none;
+		padding-bottom: 35px;
+		padding-left: 0;
+		margin-top: 5px;
+	}
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+	#toolDiv{
+		clear:both;
+		padding-top:10px;
+	}
+	.toolbar {
+		/*z-index: 50;*/
+		/*position: absolute;*/
+		clear:both;
+		list-style: none;
+		padding-bottom: 40px;
+		padding-left: 0;
+		margin-top: 5px;
+	}
+	
+}
+.help{
+	cursor:help;
+}
+.helpImage{
+	visibility:hidden;
+}
+#toolDiv{
+		clear:both;
+}
+.toolbarButton span {
+	  display: inline-block;
+}
+.staticToolbarButton{
+	float: left;
+	padding:2px;
+	width:60px;
+	height:25px;
+	background-color: #666;
+	background-color: #FFF;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	cursor:pointer;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:0;
+	border:1px solid #666;	
+	background-position:center center;
+	background-repeat:no-repeat;
+	text-align: center;
+	font-weight: bold;	
+	margin: 20px;
+	font-size: 10px;
+}
+.toolbarButton{
+	float: left;
+	padding:1px;
+	width:80px;
+	height:25px;
+	background-color: #666;
+	background-color: #FFF;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	cursor:pointer;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:0;
+	border:1px solid #666;	
+	background-position:center center;
+	background-repeat:no-repeat;
+	text-align: center;
+	font-weight: bold;	
+}
+.toolbar li:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.toolbar li:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.staticToolbarButton   {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+}
+.centerText{
+	padding-top: 3px;
+	font-size:	10px;
+}
+
+.hover.disabled {
+	background-color: #111;
+}
+
+.hover {
+	background-color: #eee;
+}
+
+.active {
+	background-color: #ccc;
+	cursor:pointer;
+}
+.searchBtn {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/*background-image:url(img/binoculars.png);*/
+}
+#waiting {
+	position:absolute;
+	height: 100%;
+	width:100%;
+}
+
+#waiting img {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	z-index: 5000;
+}
+
+.filters{
+	cursor:pointer;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; } 
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #AAAAAA; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.datagrid table td, .datagrid table th { padding: 3px 10px; }
+.datagrid table thead th {background:-webkit-gradient(linear,0 0,0 100%,from(#fafafa),to(#dadada));background:-moz-linear-gradient( center top, #fafafa 5%, #dadada 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#dadada');background-color:#fafafa; color:#000000; font-size: 12px; font-weight: bold; border-left: 1px solid #A3A3A3; } 
+.datagrid table thead th:first-child { border-top: none; border-left: none; border-right: none;}
+.datagrid table thead th { border-bottom: 1px solid #000000; }
+.datagrid table tbody td { vertical-align: top; color: #000000; border-left: 1px solid #DBDBDB;font-size: 12px;font-weight: normal; }
+.datagrid table tbody .alt td { background: #EBEBEB; color: #000000; }
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
+
+.numbers{
+	vertical-align: middle;
+}
+.circle {
+		clear: both;
+		border-radius: 50%;		
+		border: 1px solid;
+		height:20px;
+		width:20px;
+		text-align: center;
+		font-size: 20px;				
+}
+.iaCircle {
+		background: rgba(230,0,169,.6);
+}
+.igCircle {			
+		background: rgba(169,0,230,.6);			
+}
+.ivCircle {				
+		background: rgba(85,255,0,.6);				
+}
+.imCircle {				
+		background: rgba(255,255,0,.6);				
+}
+.iiCircle{				
+	background: rgba(230,153,0,.6);				
+	/* width and height can be anything, as long as they're equal */
+}
+div#spinner
+{
+    display: none;
+    width:100px;
+    height:100px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-100px 0 0 -100px;
+    z-index:200000;
+    overflow: auto;
+}  
+.searchResultIcon
+{
+    display: none;
+}
